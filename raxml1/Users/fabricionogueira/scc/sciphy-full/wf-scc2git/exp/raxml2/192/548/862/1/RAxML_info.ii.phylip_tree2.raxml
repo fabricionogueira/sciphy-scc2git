@@ -1,0 +1,71 @@
+
+
+IMPORTANT WARNING: Sequences 4 and 33 are exactly identical
+
+IMPORTANT WARNING
+Found 1 sequence that is exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file ii.phylip.reduced
+
+
+This is RAxML version 7.2.8 released by Alexandros Stamatakis in October 2010.
+
+With greatly appreciated code contributions by:
+Andre Aberer (TUM)
+Simon Berger (TUM)
+John Cazes (TACC)
+Michael Ott (TUM)
+Nick Pattengale (UNM)
+Wayne Pfeiffer (SDSC)
+Akifumi S. Tanabe (Univ. Tsukuba)
+
+
+Alignment has 555 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 29.09%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 4 non-parametric bootstrap inferences
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 555
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: WAG
+Fixed Base Frequencies:
+
+
+
+
+RAxML was called as follows:
+
+/usr/local/bin/raxmlHPC -s ii.phylip -n ii.phylip_tree2.raxml -c 4 -f d -m PROTGAMMAWAG -b 234534251 -N 4 -p 1 
+
+
+Testing which likelihood implementation to use
+Standard Implementation full tree traversal time: 0.196182
+Subtree Equality Vectors for gap columns full tree traversal time: 0.165865
+... using standard implementation
+
+Bootstrap[0]: Time 203.962867 seconds, bootstrap likelihood -17177.328603, best rearrangement setting 5
+Bootstrap[1]: Time 207.920387 seconds, bootstrap likelihood -16872.908862, best rearrangement setting 5
+Bootstrap[2]: Time 214.414392 seconds, bootstrap likelihood -18210.671700, best rearrangement setting 10
+Bootstrap[3]: Time 339.708033 seconds, bootstrap likelihood -17540.491219, best rearrangement setting 5
+
+
+Overall Time for 4 Bootstraps 966.010635
+
+
+Average Time per Bootstrap 241.502659
+All 4 bootstrapped trees written to: /Users/fabricionogueira/scc/sciphy-full/wf-scc2git/exp/raxml2/192/548/862/1/RAxML_bootstrap.ii.phylip_tree2.raxml
