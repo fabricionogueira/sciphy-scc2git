@@ -1,0 +1,2 @@
+LOCAL_REPOSITORY;PATH_TO_WF_FILE;MESSAGE
+/Users/fabricionogueira/scc/sciphy-full/wf-scc2git/localrepo;/Users/fabricionogueira/scc/sciphy-full/wf-scc2git/SCC.xml;dataselection_commit
