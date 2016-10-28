@@ -1,0 +1,2 @@
+LOCAL_REPOSITORY;PATH_TO_WF_FILE;MESSAGE
+/root/wf-scc2git/localrepo;/root/wf-scc2git/SCC.xml;raxml3_commit
