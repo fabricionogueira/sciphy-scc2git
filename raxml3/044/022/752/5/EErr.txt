@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/root/wf-scc2git/bin/execute_raxml.py", line 57, in <module>
+    paramExecuteRaxml(dirin_current, phylip_file, mg_file, bootstrap, nbcat, raxmlType)
+  File "/root/wf-scc2git/bin/execute_raxml.py", line 14, in paramExecuteRaxml
+    os.chmod(mg_file, 0755)  # Assume it's a file
+OSError: [Errno 2] No such file or directory: '/mnt/scc2git/exp/raxml3/044/022/752/5/iii.mg.modelFromMG.txt'
+java.io.FileNotFoundException: iii.fasta.fastaNumbered (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at Extractor.raxml3(Extractor.java:25)
+	at Main.main(Main.java:12)
