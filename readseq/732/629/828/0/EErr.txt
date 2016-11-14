@@ -1,0 +1,2 @@
+Readseq version 2.1.30 (12-May-2010)
+Unknown or unreadable data: /mnt/scc2git/exp/readseq/732/629/828/0/i.mafft
