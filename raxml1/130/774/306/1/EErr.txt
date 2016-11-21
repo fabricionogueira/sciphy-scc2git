@@ -1,0 +1,8 @@
+java.io.FileNotFoundException: RAxML_info.vi.phylip_raxml_tree1.singleTree (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at Extractor.raxml(Extractor.java:120)
+	at Main.main(Main.java:14)
