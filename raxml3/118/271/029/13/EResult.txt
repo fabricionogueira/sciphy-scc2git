@@ -1,0 +1,3 @@
+Current working directory /mnt/scc2git/exp/raxml3/118/271/029/13
+raxmlHPC -f b -m PROTGAMMAWAG -c 4 -s vi.phylip -z RAxML_bootstrap.vi.phylip_tree2.raxml -t RAxML_bestTree.vi.phylip_raxml_tree1.singleTree -n vi.phylip_tree3.BS_TREE -p 1
+The file RAxML_bootstrap.vi.phylip_tree2.raxml you want to open for reading does not exist, exiting ...
